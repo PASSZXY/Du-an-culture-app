@@ -1,0 +1,34 @@
+:root {
+  /* --- 品牌主色调 --- */
+  --color-primary: #a0946c; /* 主色 - 翡翠绿 */
+  --color-primary-hover: #bd7f5b; /* 主色悬停/深色 */
+
+  /* --- 文本颜色 --- */
+  --text-main: #374151; /* 正文主要文字 - 深灰 */
+  --text-heading: #11271e; /* 标题/强调文字 - 近黑 */
+  --text-subtitle: #6b7280; /* 副标题/说明文字 - 中灰 */
+  --text-light: #9ca3af; /* 浅色文字/禁用状态 */
+  --text-white: #ffffff; /* 白色文字 */
+  --text-white-80: rgba(255, 255, 255, 0.8); /* 白色文字 80% 透明度 */
+  --text-white-70: rgba(255, 255, 255, 0.7); /* 白色文字 70% 透明度 */
+  --text-white-40: rgba(255, 255, 255, 0.4); /* 白色文字 40% 透明度 */
+  --text-map-highlight: #ffffff; /* 地图高亮区域文字颜色 */
+
+  /* --- 背景颜色 --- */
+  --bg-white: #ffffff; /* 纯白背景 */
+  --bg-light: #f9fafb; /* 浅灰背景 (联系我们) */
+  --bg-light-alt: #f8f9fb; /* 浅灰背景 (客户评价) */
+  --bg-dark: #111827; /* 深色背景 (页脚) */
+  --bg-overlay-black-40: rgba(0, 0, 0, 0.4); /* 黑色遮罩 40% */
+  --bg-overlay-black-60: rgba(0, 0, 0, 0.6); /* 黑色遮罩 60% */
+  --bg-overlay-black-70: rgba(0, 0, 0, 0.7); /* 黑色遮罩 70% */
+  --bg-overlay-black-85: rgba(0, 0, 0, 0.85); /* 黑色遮罩 85% */
+  --bg-map-address-highlight: rgb(160, 148, 108); /* 地图地址高亮背景 */
+  --bg-toast-success: rgba(160, 148, 108, 0.9); /* 成功提示背景 (基于主色) */
+
+  /* --- 边框与分割线 --- */
+  --border-light: #e5e7eb; /* 浅色边框/分割线 */
+  --border-medium: #d1d5db; /* 中等边框 (滚动条/圆点) */
+  --border-dark: #646464; /* 深色边框 (卡片) */
+  --border-white-10: rgba(255, 255, 255, 0.1); /* 白色边框 10% 透明度 */
+}
