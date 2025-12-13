@@ -86,7 +86,7 @@
           <li><a href="#home" @click="handleNavClick('home', $event)">首页</a></li>
           <li><a href="#courses" @click="handleNavClick('courses', $event)">敦安简介</a></li>
           <li><a href="#clinics" @click="handleNavClick('clinics', $event)">敦安服务</a></li>
-          <li><a href="#forum" @click="handleNavClick('forum', $event)">学习论坛</a></li>
+          <li><a href="#forum" @click="handleNavClick('forum', $event)">祝吉用品</a></li>
           <li><a href="#contact" @click="handleNavClick('contact', $event)">联系我们</a></li>
         </ul>
       </nav>

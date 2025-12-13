@@ -4,11 +4,6 @@
       <!-- 底部版权 -->
       <div class="copyright">
         <p>&copy; 2025 北京敦安文化传媒有限公司. All rights reserved.</p>
-        <div class="footer-divider"></div>
-        <div class="footer-links">
-          <a href="#">隐私政策</a>
-          <a href="#">服务条款</a>
-        </div>
       </div>
     </div>
   </footer>

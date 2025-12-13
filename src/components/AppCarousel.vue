@@ -5,7 +5,7 @@
         <div class="carousel-content">
           <h1>敦安文化</h1>
           <p>玄学不是答案，是探索世界的另一种视角。</p>
-          <a href="#" class="cta-button">联系我们</a>
+          <a href="#contact" class="cta-button">联系我们</a>
         </div>
       </div>
       <!-- 下滑提示箭头 -->

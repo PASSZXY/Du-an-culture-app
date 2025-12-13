@@ -63,32 +63,22 @@ const productImage3 = new URL('@/assets/goods_3.png', import.meta.url).href
 const productImage4 = new URL('@/assets/goods_4.png', import.meta.url).href
 const productImage5 = new URL('@/assets/goods_5.png', import.meta.url).href
 const productImage6 = new URL('@/assets/goods_6.png', import.meta.url).href
-const productImage7 = new URL('@/assets/goods_7.png', import.meta.url).href
-const productImage8 = new URL('@/assets/goods_8.png', import.meta.url).href
-const productImage9 = new URL('@/assets/goods_9.png', import.meta.url).href
 const productImage10 = new URL('@/assets/goods_10.png', import.meta.url).href
 const productImage11 = new URL('@/assets/goods_11.png', import.meta.url).href
 const productImage12 = new URL('@/assets/goods_12.png', import.meta.url).href
 const productImage13 = new URL('@/assets/goods_13.png', import.meta.url).href
-const productImage14 = new URL('@/assets/goods_14.png', import.meta.url).href
-const productImage15 = new URL('@/assets/goods_15.png', import.meta.url).href
 
 const allCards = ref([
-  { title: '1 合香珠', image: productImage1 },
-  { title: '2 合香珠', image: productImage2 },
-  { title: '3 合香珠', image: productImage3 },
-  { title: '4 合香珠', image: productImage4 },
-  { title: '5 合香珠', image: productImage5 },
-  { title: '6 合香珠', image: productImage6 },
-  { title: '7 合香珠', image: productImage7 },
-  { title: '8 合香珠', image: productImage8 },
-  { title: '9 合香珠', image: productImage9 },
-  { title: '10 合香珠', image: productImage10 },
-  { title: '11 合香吊坠', image: productImage11 },
-  { title: '12 合香吊坠', image: productImage12 },
-  { title: '13 合香车饰', image: productImage13 },
-  { title: '14 生肖定制', image: productImage14 },
-  { title: '15 手工香皂', image: productImage15 },
+  { title: '曲直款', image: productImage1 },
+  { title: '炎上款', image: productImage2 },
+  { title: '稼穑款', image: productImage3 },
+  { title: '从革款', image: productImage4 },
+  { title: '润下款', image: productImage5 },
+  { title: '通行款', image: productImage6 },
+  { title: '定制五行款', image: productImage10 },
+  { title: '合香莲花牌', image: productImage11 },
+  { title: '合香龙珠', image: productImage12 },
+  { title: '合香葫芦', image: productImage13 },
 ])
 
 // 卡片宽度 + 间隙

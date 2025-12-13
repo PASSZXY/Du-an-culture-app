@@ -13,7 +13,14 @@
             <!-- 服务图片 -->
             <Transition name="appear" mode="out-in">
               <div :key="currentReview.id" class="service-image">
-                <img :src="currentReview.serviceImage" :alt="currentReview.name" />
+                <template v-if="currentReview.url">
+                  <a :href="currentReview.url" target="_blank" rel="noopener">
+                    <img :src="currentReview.serviceImage" :alt="currentReview.name" />
+                  </a>
+                </template>
+                <template v-else>
+                  <img :src="currentReview.serviceImage" :alt="currentReview.name" />
+                </template>
               </div>
             </Transition>
 
@@ -63,8 +70,7 @@ const reviews = ref([
     category: '玄学预测',
     name: '玄学预测',
     title: '',
-    description:
-      '“通过专业的命理推演服务，为您解读人生格局，指点迷津。我们的师傅拥有多年实践经验，运用古人智慧为现代人服务。”',
+    description: '“通过专业的命理推演服务，为您解读人生格局，指点迷津，运用古人智慧为现代人服务。”',
     serviceImage: showCard1,
     features: [
       { title: '专业解读', description: '资深命理师团队，深入浅出' },
@@ -105,8 +111,9 @@ const reviews = ref([
     category: '香道产品',
     name: '香道产品',
     title: '',
-    description: '精选天然佛香珠，承载古老的东方文化与智慧。',
+    description: '精选天然合香珠，承载古老的东方文化与智慧。',
     serviceImage: showCard4,
+    url: 'https://mp.weixin.qq.com/s/WjNU7opd1FBeOyasLpoYGA',
     features: [
       { title: '精品选材', description: '甄选天然高质珠料' },
       { title: '文化传承', description: '融合传统手工工艺' },

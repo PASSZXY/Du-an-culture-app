@@ -14,7 +14,7 @@
               <div class="info-content">
                 <h4>地址</h4>
                 <p>北京市延庆区妫水北街33号</p>
-                <p>观澜国际公寓1603室</p>
+                <p>观澜国际公寓1217室</p>
               </div>
             </div>
 
@@ -44,7 +44,7 @@
 
             <div class="social-icons-container">
               <a
-                href="weixin://dl/chat?Dunan-Culture"
+                href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzk3NTMzNDA1Mg==#wechat_redirect"
                 class="social-icon-link"
                 title="微信号: Dunan-Culture"
               >
@@ -53,12 +53,12 @@
               <a href="https://xhslink.com/m/2XhPX8nHth6" class="social-icon-link" title="小红书">
                 <img src="@/assets/RedNote.svg" alt="小红书" class="social-icon-img" />
               </a>
-              <a href="#" class="social-icon-link" title="B站">
+              <div class="social-icon-link" title="B站">
                 <img src="@/assets/Bilibili.svg" alt="B站" class="social-icon-img" />
-              </a>
-              <a href="#" class="social-icon-link" title="抖音">
+              </div>
+              <div class="social-icon-link" title="抖音">
                 <img src="@/assets/TikTok.svg" alt="抖音" class="social-icon-img" />
-              </a>
+              </div>
             </div>
           </div>
         </div>
@@ -78,7 +78,7 @@
                 <div class="map-address-divider"></div>
                 <div class="map-address-line line-color-1">北京市延庆区</div>
                 <div class="map-address-line line-color-2">妫水北街33号</div>
-                <div class="map-address-line line-color-1">观澜国际公寓1603室</div>
+                <div class="map-address-line line-color-1">观澜国际公寓1217室</div>
               </div>
               <!-- 复制成功 dialog -->
               <div v-if="showCopyDialog" class="copy-dialog-overlay">
