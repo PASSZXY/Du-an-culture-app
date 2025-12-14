@@ -3,7 +3,7 @@
     <div class="container">
       <div class="logo">
         <img src="@/assets/logo.png" alt="敦安文化" class="logo-img" />
-        <div class="logo-text">敦安文化 <span>Dunan Culture</span></div>
+        <div class="logo-text">敦安 <span>Dunan</span></div>
       </div>
       <!-- 桌面端导航 -->
       <nav class="main-nav desktop-nav">

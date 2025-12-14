@@ -81,7 +81,7 @@ const bottomHoveredCardId = ref<number | null>(null)
 const allBannerItems = [
   {
     id: 1,
-    title: '敦安文化创始人 - 孙镇',
+    title: '敦安创始人 - 孙镇',
     description: '自天佑之，吉无不利',
     bgColor: '#4F201C',
     image: showCard1,

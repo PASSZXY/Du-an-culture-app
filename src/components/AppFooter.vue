@@ -3,7 +3,7 @@
     <div class="container">
       <!-- 底部版权 -->
       <div class="copyright">
-        <p>&copy; 2025 北京敦安文化传媒有限公司. All rights reserved.</p>
+        <p>&copy; 2025 敦安简介. All rights reserved.</p>
       </div>
     </div>
   </footer>
